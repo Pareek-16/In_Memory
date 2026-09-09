@@ -2,7 +2,7 @@ from fastapi import FastAPI, HTTPException
 
 app = FastAPI()
 
-
+# For simplicity, we will use an in-memory list to store items. In a real-world application, you would typically use a database.
 items = []
 
 
